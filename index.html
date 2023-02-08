@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>SUPER CALCULADORA</title>
+</head>
+<body>
+    <header>
+        <h1>Super Calculadora</h1>
+        <div>
+            <section>
+                <label for="first-number">Primeiro número (A): </label>
+                <input 
+                    type="number" 
+                    name="first-number" 
+                    id="first-number"
+                >
+            </section>
+            <section>
+                <label for="second-number">Segundo número (B): </label>
+                <input 
+                    type="number" 
+                    name="second-number" 
+                    id="second-number"
+                >
+            </section>
+            <button type="button" onclick="calculate()" >Calcular</button>
+        </div>
+    </header>
+    <main>
+        <section><p>Soma: </p><h2 id="sum"></h2></section>
+        <section><p>Subtração A-B</p><h2 id="subAuB"></h2></section>
+        <section><p>Subtração B-A</p><h2 id="subBuA"></h2></section>
+        <section><p>Multiplicação</p><h2 id="mult"></h2></section>
+        <section><p>Divisão A/B</p><h2 id="divAuB"></h2></section>
+        <section><p>Divisão B/A</p><h2 id="divBuA"></h2></section>
+        <section><p>Potência de A na Base B</p><h2 id="potAuB"></h2></section>
+        <section><p>Potência de B na Base A</p><h2 id="potBuA"></h2></section>
+        <section><p>Raiz quadrada de A</p><h2 id="sRootA"></h2></section>
+        <section><p>Raiz quadrada de B</p><h2 id="sRootB"></h2></section>
+        <section><p>Fatorial de A</p><h2 id="factorialA"></h2></section>
+        <section><p>Fatorial de B</p><h2 id="factorialB"></h2></section>
+        <section><p>Porcentagem de A em relação a B</p><h2 id="percentAuB"></h2></section>
+        <section><p>Porcentagem de B em relação a A</p><h2 id="percentBuA"></h2></section>
+        <section><p>Média</p><h2 id="average"></h2></section>
+    </main>
+</body>
+</html>
